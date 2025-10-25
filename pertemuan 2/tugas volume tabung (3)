@@ -1,0 +1,8 @@
+int_tinggi = int(input("input tinggi tabung: "))
+int_jari2 = int(input("input jari-jari tabung: "))
+
+import math
+int_luasalas = math.pi*int_jari2**2
+int_volume = int_luasalas*int_tinggi
+
+print("volume tabung adalah", int_volume, "meter³")
