@@ -1,0 +1,8 @@
+print("Ax² + Bx + C = 0 ")
+int_a = int(input("input nilai A: "))
+int_b = int(input("input nilai B: "))
+int_c = int(input("input nilai C: "))
+
+int_Diskr = int_b**2-4*int_a*int_c
+
+print("nilai diskriminan adalah", int_Diskr)
