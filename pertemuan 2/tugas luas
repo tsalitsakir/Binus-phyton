@@ -1,0 +1,7 @@
+int_panjang = int(input("Enter length: "))
+int_lebar = int(input("Enter wide: "))
+int_tinggi = int(input("Enter tall: "))
+
+int_volume = int_panjang*int_lebar*int_tinggi
+
+print("volume balok adalah", int_volume, "meter³")
