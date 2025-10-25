@@ -1,0 +1,5 @@
+int_jari2 = int(input("input jari-jari bola: "))
+
+int_volume = 4/3*3.14*(int_jari2**3)
+
+print("volume bola adalah", int_volume, "meter³")
