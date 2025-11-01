@@ -1,0 +1,8 @@
+int_cari = int(input("input bilangan: "))
+
+int_num = int_cari % 2
+
+if(int_num == 0):
+    print (int_cari, "adalah bilangan genap")
+else:
+    print (int_cari, "adalah bilangan ganjil")
