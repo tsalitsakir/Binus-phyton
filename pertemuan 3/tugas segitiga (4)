@@ -1,0 +1,18 @@
+A = int(input("input sisi A:"))
+B = int(input("input sisi B:"))
+C = int(input("input sisi C:"))
+
+if ((A + B <= C) and (A + C <= B) and (B + C <= A)):
+    print ("berikut bukanlah segitiga")
+    
+elif ((A**2 + B**2 == C**2) or (B**2 + C**2 == A**2) or (A**2 + C**2 == B**2)):
+    print ("segitiga siku-siku") 
+    
+elif (A==B==C):
+    print("segitiga sama sisi")
+    
+elif ((A==B) or (A==C) or (B==C)):
+    print ("segitiga sama kaki")
+
+else:
+    print ("segitiga sembarang")
