@@ -1,0 +1,33 @@
+print("""
+berikut pilihan satuan suhu untuk dikonversikan:
+1. celsius
+2. kelvin
+3. fahrenheit
+""")
+print("*contoh: celsius -> kelvin = '12'")
+int_jenisk = int(input("input jenis konversi:"))
+int_suhuA = int(input("input suhu yang dikonversikan:"))
+
+if (int_jenisk == 12):
+    int_suhuB = (int_suhuA+273.15)
+    print ("hasil:", int_suhuB, "K" )
+    
+elif (int_jenisk ==13):
+    int_suhuB = (9/5*(int_suhuA+32))
+    print ("hasil:", int_suhuB, "F")
+    
+elif (int_jenisk ==21):
+    int_suhuB = (int_suhuA-273.15)
+    print ("hasil:", int_suhuB, "C")
+    
+elif (int_jenisk ==23):
+    int_suhuB = (9/5*(int_suhuA-273.15)+32)
+    print ("hasil:", int_suhuB, "F")
+    
+elif (int_jenisk ==31):
+    int_suhuB = (5/9*(int_suhuA-32))
+    print ("hasil:", int_suhuB, "C")
+    
+else:
+    int_suhuB = (5/9*(int_suhuA-32)+273.15)
+    print ("hasil:", int_suhuB, "K")
