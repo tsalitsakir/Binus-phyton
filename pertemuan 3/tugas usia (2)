@@ -1,0 +1,24 @@
+int_umur = int(input("input usia:"))
+
+if (int_umur<0):
+    print ("usia tidak bisa lebih kecil dari 0")
+elif ((int_umur>=0) and (int_umur<=1)):
+    print ("bayi")
+elif ((int_umur>=2) and (int_umur<=3)):
+    print ("batita")
+elif ((int_umur>=4) and (int_umur<=5)):
+    print ("balita")
+elif ((int_umur>=6) and (int_umur<=12)):
+    print ("anak")
+elif ((int_umur>=13) and (int_umur<=17)):
+    print ("remaja")
+elif ((int_umur>=18) and (int_umur<=21)):
+    print ("dewasa muda")
+elif ((int_umur>=22) and (int_umur<=30)):
+    print ("pra-dewasa")
+elif ((int_umur>=31) and (int_umur<=50)):
+    print ("dewasa")
+elif ((int_umur>=51) and (int_umur<=70)):
+    print ("pra-lansia")
+else: 
+    print ("lansia")
